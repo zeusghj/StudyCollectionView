@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="CyS-UV-9uj" customClass="CustomCell">
+            <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="channel_9" translatesAutoresizingMaskIntoConstraints="NO" id="caA-XX-KWE">
+                        <rect key="frame" x="5" y="5" width="90" height="90"/>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstItem="caA-XX-KWE" firstAttribute="top" secondItem="CyS-UV-9uj" secondAttribute="top" constant="5" id="6hn-rI-G1z"/>
+                <constraint firstAttribute="trailing" secondItem="caA-XX-KWE" secondAttribute="trailing" constant="5" id="70c-ju-ZnX"/>
+                <constraint firstItem="caA-XX-KWE" firstAttribute="leading" secondItem="CyS-UV-9uj" secondAttribute="leading" constant="5" id="DKd-wx-Wfd"/>
+                <constraint firstAttribute="bottom" secondItem="caA-XX-KWE" secondAttribute="bottom" constant="5" id="xqV-eE-nkN"/>
+            </constraints>
+            <point key="canvasLocation" x="192" y="408"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="channel_9" width="308" height="247"/>
+    </resources>
+</document>
